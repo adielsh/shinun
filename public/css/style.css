@@ -1,0 +1,40 @@
+/** {*/
+/*box-sizing: border-box;*/
+/*}*/
+
+/*.carousel {*/
+/*background: #EEE;*/
+/*}*/
+
+/*.carousel-cell {*/
+/*width: 100%;*/
+/*height: 800px;*/
+/*margin-right: 10px;*/
+/*background: #8C8;*/
+/*border-radius: 5px;*/
+/*counter-increment: gallery-cell;*/
+/*}*/
+
+/*!* cell number *!*/
+/*.carousel-cell:before {*/
+/*display: block;*/
+/*text-align: center;*/
+/*content: counter(carousel-cell);*/
+/*line-height: 800px;*/
+/*font-size: 80px;*/
+/*color: white;*/
+/*}*/
+.middle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+.navbar {
+    margin-bottom: unset !important;
+}
+
+body {
+    padding-top: 70px;
+}
